@@ -1,5 +1,5 @@
 # PlayerHideCommand for BlueMap
-A simple command that adds the ability for players to toggle whether their player icon shows on the map or not.
+A simple Spigot plugin that adds the ability for players to toggle whether their player icon shows on the map or not with a command.
 
 Use `/toggleplayermapicon` to do this!
 
