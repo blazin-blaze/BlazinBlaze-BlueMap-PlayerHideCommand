@@ -5,7 +5,7 @@ api-version: '1.21'
 authors: [ BlazinBlaze ]
 description: Adds a BlueMap command for players to hide their location
 commands:
-  togglePlayerMapIcon:
+  toggleplayermapicon:
     description: Toggles the icon of a player on the server map
     usage: /<command>
     permission: bbbmphc.permission
