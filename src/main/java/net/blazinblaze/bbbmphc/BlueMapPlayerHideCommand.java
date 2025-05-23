@@ -7,8 +7,7 @@ public final class BlueMapPlayerHideCommand extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        this.getLogger().info("Enabling BlueMapPlayerHideCommand!");
-        this.getCommand("toggleplayermapicon").setExecutor(new CommandTogglePlayer());
+        getCommand("toggleplayermapicon").setExecutor(new CommandTogglePlayer());
     }
 
     @Override

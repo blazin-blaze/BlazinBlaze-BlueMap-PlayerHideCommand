@@ -8,8 +8,3 @@ commands:
   toggleplayermapicon:
     description: Toggles the icon of a player on the server map
     usage: /<command>
-    permission: bbbmphc.permission
-permissions:
-  bbbmphc.permission:
-    description: Gives the player access to toggerPlayerMapIcon
-    default: true

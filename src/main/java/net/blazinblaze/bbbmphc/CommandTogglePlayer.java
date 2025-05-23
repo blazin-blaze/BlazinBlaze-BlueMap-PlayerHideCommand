@@ -20,10 +20,10 @@ public class CommandTogglePlayer implements CommandExecutor {
                 boolean isVisible = webApp.getPlayerVisibility(player.getUniqueId());
                 if(isVisible) {
                     webApp.setPlayerVisibility(player.getUniqueId(), false);
-                    player.sendRawMessage("Successfully hidden player icon on server map!");
+                    player.sendMessage("§a§lSuccessfully hidden player icon on server map!");
                 } else {
                     webApp.setPlayerVisibility(player.getUniqueId(), true);
-                    player.sendRawMessage("Successfully revealed player icon on server map!");
+                    player.sendMessage("§a§lSuccessfully revealed player icon on server map!");
                 }
             });
         }
