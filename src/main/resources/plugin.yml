@@ -1,0 +1,15 @@
+name: PlayerHideCommand
+version: '1.0'
+main: net.blazinblaze.bbbmphc.BlueMapPlayerHideCommand
+api-version: '1.21'
+authors: [ BlazinBlaze ]
+description: Adds a command for players to hide their location
+commands:
+  togglePlayerMapIcon:
+    description: Toggles the icon of a player on the server map
+    usage: /<command>
+    permission: bbbmphc.permission
+permissions:
+  bbmphc.permission:
+    description: Gives the player access to toggerPlayerMapIcon
+    default: true
